@@ -7,7 +7,7 @@
       <p class="detailSale">{{'月售'+$store.state.dishDetail.dish_sale}}</p>
       <p class="detailPrice">{{'￥'+$store.state.dishDetail.dish_price}}</p>
     </div>
-    <div class="description">{{$store.state.dishDetail.dish_discription}}</div>
+    <div class="discription">{{$store.state.dishDetail.dish_discription}}</div>
   </div>
 </template>
 
@@ -82,7 +82,7 @@ export default {
   color: red;
 }
 
-.description {
+.discription {
   width: 100%;
   height: 45%;
   margin-top: 2%;
